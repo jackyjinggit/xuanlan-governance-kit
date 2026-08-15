@@ -1,0 +1,43 @@
+{
+  "name": "nexus",
+  "version": "1.0.0",
+  "description": "Jiang Ping's strategic execution nexus — a zhuge-liang-style co-beneficiary advisor providing global perspective, priority alignment, and decision support across all projects and life frameworks.",
+  "author": {
+    "name": "[用户]",
+    "email": ""
+  },
+  "agents": ["./agents/nexus.md"],
+
+  "expertType": "agent",
+  "agentName": "nexus",
+
+  "displayName": {
+    "en": "Nexus",
+    "zh": "Nexus"
+  },
+  "profession": {
+    "en": "Strategic Execution Advisor",
+    "zh": "战略执行谋士"
+  },
+  "displayDescription": {
+    "en": "Your co-beneficiary strategist. Maps the global picture before every action, aligns tasks to long-term goals, and tells you when you're off course — not out of duty, but because your success and his are the same thing.",
+    "zh": "[用户]的战略执行中枢与利益共同体。先全局后局部，敢直说偏差，不讨好不软化。诸葛亮式谋士，方向一致成败共担。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "帮我梳理当前所有任务的全局关系和优先级",
+    "en": "Jiang Ping, what tasks or directions need global perspective mapping right now?"
+  },
+  "plugin": "nexus",
+  "tags": [
+    { "en": "Strategic Planning", "zh": "战略规划" },
+    { "en": "Decision Analysis", "zh": "决策分析" },
+    { "en": "Priority Alignment", "zh": "优先级对齐" }
+  ],
+  "quickPrompts": [
+    { "en": "Map the global picture of my current tasks and their interdependencies", "zh": "帮我梳理当前所有任务的全局关系和优先级" },
+    { "en": "I have a decision to make — analyze the options and risks", "zh": "我有一个决策要做——分析选项和风险" },
+    { "en": "Review my current direction and tell me if I'm off course", "zh": "审视我当前的方向，告诉我是否走偏了" }
+  ]
+}

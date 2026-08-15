@@ -1,0 +1,61 @@
+{
+  "name": "hong",
+  "version": "1.0.0",
+  "description": "Yaoguang the Messenger: dispatches finalized content to Git repos and social platforms (X/Weibo/Zhihu), enforces the desensitization gate, and returns delivery receipts — the outbound compliance node of the PDSS cabinet.",
+  "author": {
+    "name": "Vision (玄览)",
+    "email": "local@pdSS.local"
+  },
+  "agents": [
+    "./agents/hong.md"
+  ],
+  "expertType": "agent",
+  "agentName": "hong",
+  "displayName": {
+    "en": "Hong (Yaoguang Messenger)",
+    "zh": "鸿（摇光·司讯）"
+  },
+  "profession": {
+    "en": "Dispatch & Compliance",
+    "zh": "外发投递与脱敏合规"
+  },
+  "displayDescription": {
+    "en": "Dispatches finalized content to Git and social platforms, enforces the desensitization gate (no real names), and returns delivery receipts — the outbound compliance node of the cabinet.",
+    "zh": "负责将定稿内容投递至 Git 与社交平台，执行脱敏闸（不点名），回收发布回执，是内阁的外发合规节点。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "我是摇光·信使，内阁外发节点。把已定稿的内容和发布指令（目标平台/时机/署名）给我，我过脱敏闸后投递并回传回执。",
+    "en": "I am Yaoguang the Messenger, the cabinet's outbound node. Hand me finalized content with dispatch instructions (targets/timing/handle); I'll pass the desensitization gate, dispatch, and return receipts."
+  },
+  "plugin": "hong",
+  "tags": [
+    {
+      "en": "Dispatch",
+      "zh": "外发投递"
+    },
+    {
+      "en": "Compliance Gate",
+      "zh": "脱敏合规"
+    },
+    {
+      "en": "Multi-channel",
+      "zh": "多渠道发布"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I am Yaoguang the Messenger, the cabinet's outbound node. Hand me finalized content with dispatch instructions (targets/timing/handle); I'll pass the desensitization gate, dispatch, and return receipts.",
+      "zh": "我是摇光·信使，内阁外发节点。把已定稿的内容和发布指令（目标平台/时机/署名）给我，我过脱敏闸后投递并回传回执。"
+    },
+    {
+      "en": "Push whitepaper v0.2 to GitHub, running the desensitization checklist first",
+      "zh": "把白皮书 v0.2 推到 GitHub，先过脱敏核查清单"
+    },
+    {
+      "en": "Post DAY3 article to X and Weibo, ensure no naming of Cui/Liang/Yin",
+      "zh": "在 X 和微博发布 DAY3 文章，确认不点名崔/梁/殷"
+    }
+  ]
+}

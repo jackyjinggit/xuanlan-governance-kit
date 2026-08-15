@@ -1,0 +1,61 @@
+{
+  "name": "ying",
+  "version": "1.0.0",
+  "description": "A silent watchdog expert that detects any background task progress and reports only once when a task is truly complete, with no confirmation chatter.",
+  "author": {
+    "name": "[用户] / Polaris",
+    "email": "polaris@pdss.local"
+  },
+  "agents": [
+    "./agents/ying.md"
+  ],
+  "expertType": "agent",
+  "agentName": "ying",
+  "displayName": {
+    "en": "Ying (Tianji Sentinel)",
+    "zh": "萤（天玑·司衡）"
+  },
+  "profession": {
+    "en": "Background Watch & Sentinel",
+    "zh": "后台值守与检测守卫"
+  },
+  "displayDescription": {
+    "en": "Silently watches any background task, detects progress automatically, and reports only once when truly complete - no confirmations, no interruptions.",
+    "zh": "静默值守各类后台任务，自动检测任意后台进度与状态，仅在任务真正完成时一次性汇报，全程不确认、不打扰。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "zh": "开始静默值守：检测当前及后续的后台任务进度，全程保持静默，只在某个任务真正完成时向我汇报一次。",
+    "en": "Begin silent watch: detect current and future background task progress, stay silent throughout, and report to me exactly once only when a task is truly complete."
+  },
+  "plugin": "ying",
+  "tags": [
+    {
+      "en": "Background Monitoring",
+      "zh": "后台监控"
+    },
+    {
+      "en": "Silent Watch",
+      "zh": "静默值守"
+    },
+    {
+      "en": "Progress Detection",
+      "zh": "进度巡检"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Begin silent watch on background tasks and report only on completion.",
+      "zh": "开始静默值守：检测当前及后续的后台任务进度，全程保持静默，只在某个任务真正完成时向我汇报一次。"
+    },
+    {
+      "en": "Check progress of all current background processes.",
+      "zh": "检测当前所有后台进程的进度。"
+    },
+    {
+      "en": "Summarize the current guard status into a brief report.",
+      "zh": "把当前值守状态整理成一份简要报告。"
+    }
+  ]
+}

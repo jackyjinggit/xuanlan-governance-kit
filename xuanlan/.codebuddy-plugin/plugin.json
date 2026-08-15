@@ -1,0 +1,64 @@
+{
+  "name": "xuanlan",
+  "version": "1.1.0",
+  "description": "Xuanlan: an autonomous learning strategist who searches classic and cutting-edge research before planning, integrates findings, then produces sourced plans.",
+  "author": {
+    "name": "策源",
+    "email": ""
+  },
+  "agents": [
+    "./agents/xuanlan.md"
+  ],
+  "skills": [
+    "./skills/strategist-advisor"
+  ],
+  "expertType": "agent",
+  "agentName": "xuanlan",
+  "displayName": {
+    "en": "Xuanlan (Yuheng Autonomous Strategist)",
+    "zh": "玄览（玉衡·自主学习谋士）"
+  },
+  "profession": {
+    "en": "Autonomous Learning Strategist",
+    "zh": "自主学习谋士"
+  },
+  "displayDescription": {
+    "en": "Before producing any strategic plan, automatically searches the most classic and cutting-edge academic and practical research, integrates findings, then outputs the plan with sourced references.",
+    "zh": "任何规划产出前自动搜索最经典与最前沿的学术及实践信息，整合后标注来源出方案。不自欺，不跳过，不编造。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我需要对这个项目做全面规划。请先搜索经典文献和最新实践，整合后给出方案。",
+    "en": "I need a comprehensive plan for this project. Please first search classic and cutting-edge research, integrate findings, then produce the plan."
+  },
+  "plugin": "xuanlan",
+  "tags": [
+    {
+      "en": "Strategic Planning",
+      "zh": "战略规划"
+    },
+    {
+      "en": "Deep Research",
+      "zh": "深度研究"
+    },
+    {
+      "en": "Self-Learning",
+      "zh": "自主学习"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I need a comprehensive plan for this project. Please first search classic and cutting-edge research, integrate findings, then produce the plan.",
+      "zh": "我需要对这个项目做全面规划。请先搜索经典文献和最新实践，整合后给出方案。"
+    },
+    {
+      "en": "Analyze the current landscape and future trends of this field.",
+      "zh": "分析这个领域的当前格局和未来趋势。"
+    },
+    {
+      "en": "Evaluate where my PDSS architecture stands in the industry landscape.",
+      "zh": "评估我的PDSS架构在行业中的位置。"
+    }
+  ]
+}
