@@ -31,11 +31,7 @@ Agent 型（单个 AI 专家）
 [本地路径·已脱敏]
 ```
 
-然后运行注册命令使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
+然后将其放入专家市场的 `plugins/` 目录（或你的自定义市场路径），并确保市场注册表包含本包 `name` + `source` 条目；WorkBuddy 重启后即在专家列表可见。
 
 ## 打包分享
 
